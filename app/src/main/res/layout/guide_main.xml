@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"
+        android:background="#122310"/>
+
+    <Button
+        android:id="@+id/come"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="#00000000"
+        android:fontFamily="@font/nanumbarunpen_b"
+        android:text="서울로 오시는 길"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"
+        android:background="#122310"/>
+
+    <Button
+        android:id="@+id/audio"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="#00000000"
+        android:fontFamily="@font/nanumbarunpen_b"
+        android:text="서울로 오디오 가이드"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"
+        android:background="#122310"/>
+
+    <Button
+        android:id="@+id/guidecall"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="#00000000"
+        android:fontFamily="@font/nanumbarunpen_b"
+        android:text="서울로 연락처"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"
+        android:background="#122310"/>
+
+    <Button
+        android:id="@+id/guideask"
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:background="#00000000"
+        android:fontFamily="@font/nanumbarunpen_b"
+        android:text="서울로 문의사항"
+        android:textSize="25dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_centerInParent="true"
+        android:background="#122310"/>
+
+</LinearLayout>

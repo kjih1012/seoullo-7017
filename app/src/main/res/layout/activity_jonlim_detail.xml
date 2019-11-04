@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.user.test.Jonlim_detail">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:padding="16dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:gravity="center_horizontal"
+                android:text="염천교 수제화거리"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ycs"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="빽빽하게 놓여있는 검은색의 신사화들, 알록달록 화려한 댄스화가 모습을 뽐내는 쇼윈도가 한 블럭 내내 펼쳐지는 곳. 이곳의 가게들은 광복 이후부터 현재까지 부침도 있었지만 변하지 않고 자리를 지켜왔다. 성수동 구두 기술자들부터 금강제화 설립자까지 구두 관련 종사자라면 한 번쯤 이곳을 거쳐가지 않은 사람이 없다고 한다."
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#478033"
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:text="염천교 수제화거리 홈페이지 바로가기" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:gravity="center_horizontal"
+                android:text="약현성당"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/yakhyeon"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="서울대교구 소속의 천주교회인 약현성당은 우리나라 최초의 서양식 성당이다. 1892년에 한국 최초로 세워진 성당이며, 로마네스크 양식의 벽돌조 건물이다.명동 성당과 함께 한국 근대 건축사의 중요한 자료로 1977년 국가 문화재(사적 제252호)로 지정되어있다"
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#478033"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="약현성당 홈페이지 바로가기" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:gravity="center_horizontal"
+                android:text="서소문 역사공원"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ssm"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="중구 의주로에 있는 서소문역사공원은 넓이 1만 평방미터가 넘는 큰규모의 공원으로, 분수대와 정자, 그리고 게이트볼장, 체력단련장, 궁도장 등이 설치된 시민근린공원이다.\n현재 중림동의 손기정기념관, 약현성당, 서소문역사공원 등지를 연계해 길이 1050미터, 도보 30분 정도의 둘레길이 조성되어 있다.\n둘레길 시작점에는 손기정 선수의 베를린 올림픽 마라톤 결승 골인 장면이 벽화로 조성되어 있고, 인도에는 손기정 선수의 풋프린팅이 되어 있다 "
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:gravity="center_horizontal"
+                android:text="충정각"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:src="@drawable/chungjunggak"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="충정각은 남문 밖 복숭아골 세브란스 의전을 설계한 캐나다 건축가 헨리 볼드 고든이 1910년대 설계한 주택입니다. 유럽, 일본 그리고 한국의 건축 양식이 복합적으로 사용된 독특한 형태의 고택입니다. 이 집의 주인은 개화기 미국에서 기술을 전수하러 온 한성 전기회사 직원 멕렐란이었습니다. 현재는 고즈넉한 분위기의 뜰을 품은 레스토랑 겸 갤러리로 많은 사람들의 사랑을 받고 있습니다."
+                android:textSize="15dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#478033"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="충정각 홈페이지 바로가기" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/nanumbarunpen_b"
+                android:gravity="center_horizontal"
+                android:text="이명래 고약방"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="170dp"
+                android:layout_gravity="center"
+                android:src="@drawable/lmr"/>
+
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/nanumbarunpen_r"
+                android:text="이명래 고약은 1906년 프랑스 선교사인 드비즈 신부로부터 서양 약학을 배운 고 이명래 선생(1850-1952)이 한방의서를 바탕으로 개발한 종기약입니다. 당시 의약 환경이 열악하여 종기로 죽는 사람들도 있었기 때문에, 이명래 고약은 집집마다 상비약으로 준비되어 있었다고 합니다. 이명래 선생이 돌아가신 후 선생의 둘째 사위에 의해 명래한의원으로 운영되다가 현재는 호프집으로 운영되고 있습니다."
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>

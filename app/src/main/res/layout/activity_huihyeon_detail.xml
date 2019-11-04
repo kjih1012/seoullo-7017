@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:padding="16dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumbarunpen_b"
+            android:gravity="center_horizontal"
+            android:text="남대문 시장"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/namdaemun"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/nanumbarunpen_r"
+            android:text="남대문시장의 역사는 조선 시대로까지 거슬러 올라간다. 한양은 물자 대부분을 지방에서 공급받았는데, 사람과 물자들이 들어오는 주요 관문인 성문마다 시장들이 들어섰다.\n그 중 동대문과 남대문이 위치한 지역은 시장이 가장 번성한 곳이다. 특히 남대문은 경기 지역과 삼남 지역에서 올라오는 농수산물과 면포, 모시, 명주, 종이, 가죽 등 각종 생산품들이 집결하는 장소였다.\n남대문시장은 조선 시대까지는 칠패시장이었다. 그러던 것이 1911년 송병준이 칠패시장 터에 조선농업주식회사를 설립하면서 근대적인 남대문시장으로 탈바꿈하게 된 것이다. 경성 시대를 거쳐 해방 후 상인연합회가 결성되면서 남대문시장은 더욱 활성화 되었다."
+            android:textSize="13dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#478033"
+            android:fontFamily="@font/nanumbarunpen_b"
+            android:text="남대문시장 홈페이지 바로가기" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="숭례문"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sungnyemun"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:text="4대문과 4소문으로 이루어진 성곽도시 한양의 가장 오래된 문인 숭례문은 1398년 태조 이성계가 한양을 도읍지로 정하면서 축조되었습니다. 밖으로는 칠패시장이라는 난전이, 안으로는 남대문시장의 전신이 형성되어 있어 4대문 중에서도 가장 사람들의 출입이 많았던 문입니다. 이후 일제 강점기 시기에 전차 길을 확보하는 과정에서 일부 성곽이 훼손되면서 지금처럼 문이 아닌 섬의 형태로 남게 되었습니다. 그리고 2008년 화재로 2층 문루와 1층 문루의 일부가 소실되었고, 현재는 복원된 모습입니다."
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumbarunpen_b"
+            android:gravity="center_horizontal"
+            android:text="한양도성"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hanyang"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/nanumbarunpen_r"
+            android:text="서울 한양도성은 조선 시대의 한양을 둘러싼 도성이다. 좁은 의미로는 도읍을 둘러싼 성곽과 문을 지칭하나, 넓은 의미로는 성곽과 그 안의 공간을 가리킨다. 조선 시대에는 줄여서 한성으로 불렸으며, 사적으로서의 명칭은 지정 당시 서울성곽으로 정하였다가 2011년 현재의 명칭으로 바뀌었다. 한양도성은 1396년 태조에 의해 축조되었고, 세종, 숙종 시기에 보수 공사를 거쳤다 "
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#478033"
+            android:fontFamily="@font/nanumbarunpen_b"
+            android:text="한양도성 홈페이지 바로가기" />
+
+
+    </LinearLayout>
+</ScrollView>
